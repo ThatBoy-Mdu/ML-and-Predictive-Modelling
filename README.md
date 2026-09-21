@@ -1,6 +1,6 @@
 # ML and Predictive Modelling
 
-A collection of machine learning, predictive modelling, and data analysis projects developed using Python and related data science tools.
+A collection of machine learning, predictive modelling, data analysis, and time-series forecasting projects developed using Python and related data science tools.
 
 ## Projects
 
@@ -8,7 +8,7 @@ A collection of machine learning, predictive modelling, and data analysis projec
 
 **Notebook:** [`Forecasting.ipynb`](notebooks/Forecasting.ipynb)
 
-A forecasting project focused on analysing historical data and developing a predictive forecasting workflow.
+A time-series forecasting project focused on analysing historical data and developing a forecasting workflow.
 
 **Technologies:**
 
@@ -20,22 +20,78 @@ A forecasting project focused on analysing historical data and developing a pred
 **Focus areas:**
 
 * Data preparation and exploration
+* Time-series analysis
+* Data transformation
+* Forecasting
+* Model evaluation
+* Data visualisation
+
+---
+
+### 2. End-to-End Demand Forecasting Pipeline
+
+**Notebook:** [`End-to-End-Forecasting-Pipeline.ipynb`](notebooks/End-to-End-Forecasting-Pipeline.ipynb)
+
+An end-to-end demand forecasting project using historical retail sales data from the **Corporación Favorita Store Sales** dataset from Ecuador.
+
+The project works with historical sales data containing store, product-family, promotion, and date information, and develops a forecasting workflow using **Facebook Prophet**.
+
+**Technologies:**
+
+* Python
+* Pandas
+* NumPy
+* PandasQL
+* SciPy
+* Prophet
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+**Focus areas:**
+
+* Data cleaning and preparation
+* Missing-data analysis
+* Exploratory data analysis
+* Sales aggregation
 * Time-series forecasting
-* Feature/data transformation
-* Model development
-* Forecast evaluation and visualisation
+* Demand forecasting
+* Model evaluation
+* Mean Absolute Percentage Error (MAPE)
+* Prophet cross-validation
+* Forecast performance analysis
+* Data visualisation
 
-## Machine Learning
+**Dataset:**
 
-This repository also covers machine learning and predictive modelling techniques including:
+The project uses the Favorita Store Sales dataset from the Kaggle Store Sales Time Series Forecasting competition.
 
+The dataset contains historical sales information from stores in Ecuador, including:
+
+* Store number
+* Product family
+* Sales
+* Promotion information
+* Date
+
+The analysis covers historical data from **2013 to 2017**.
+
+---
+
+## Machine Learning & Predictive Modelling
+
+This repository focuses on practical applications of machine learning and predictive modelling, including:
+
+* Time-series forecasting
+* Demand forecasting
 * Regression
 * Classification
 * Clustering
-* Predictive modelling
 * Data preprocessing
 * Feature engineering
-* Model training and evaluation
+* Model training
+* Model evaluation
+* Predictive analytics
 
 ## Tools & Technologies
 
@@ -44,6 +100,10 @@ This repository also covers machine learning and predictive modelling techniques
 * **NumPy**
 * **scikit-learn**
 * **Prophet**
+* **SciPy**
+* **PandasQL**
+* **Matplotlib**
+* **Seaborn**
 * **Jupyter Notebook**
 * **SQL**
 
@@ -53,12 +113,14 @@ This repository also covers machine learning and predictive modelling techniques
 ML-and-Predictive-Modelling/
 │
 ├── notebooks/
-│   └── Forecasting.ipynb
+│   ├── Forecasting.ipynb
+│   └── End-to-End-Forecasting-Pipeline.ipynb
 │
 └── README.md
 ```
 
 ## Purpose
 
-The projects in this repository demonstrate practical application of data analysis, machine learning and predictive modelling techniques using real-world datasets.
+The purpose of this repository is to demonstrate practical experience applying data analysis, machine learning, predictive modelling, and forecasting techniques to real-world datasets.
 
+The projects demonstrate the process from data preparation and exploration through to model development, forecasting, evaluation, and visualisation.
